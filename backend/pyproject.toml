@@ -1,0 +1,17 @@
+[project]
+name = "crypto-ml-backend"
+version = "0.1.0"
+description = "Crypto ML Backend"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "catboost>=1.2.8",
+    "ccxt>=4.4.75",
+    "fastapi[standard]>=0.115.12",
+    "pandas>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "sqlalchemy>=2.0.40",
+    "ta-lib>=0.6.3",
+    "torch>=2.6.0",
+    "xgboost>=3.0.0",
+]
