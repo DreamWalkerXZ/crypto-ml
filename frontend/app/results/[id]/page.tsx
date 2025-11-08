@@ -270,6 +270,8 @@ export default function BacktestDetailPage() {
                       <div>{backtestDetail.params.look_back} periods</div>
                       <div className="text-muted-foreground">Prediction Horizon:</div>
                       <div>{backtestDetail.params.prediction_horizon} periods</div>
+                      <div className="text-muted-foreground">Price Change Threshold:</div>
+                      <div>{(backtestDetail.params.price_change_threshold * 100).toFixed(2)}%</div>
                       <div className="text-muted-foreground">Retrain Interval:</div>
                       <div>{backtestDetail.params.retrain_interval} periods</div>
                       <div className="text-muted-foreground">Training Window:</div>

@@ -48,6 +48,7 @@ class BacktestParams(BacktestBase):
     ta_indicators = Column(JSON)  # List of technical indicators
     look_back = Column(Integer)
     prediction_horizon = Column(Integer)
+    price_change_threshold = Column(Float)
     model_name = Column(String)
     model_params = Column(JSON)  # Model configuration parameters
     retrain_interval = Column(Integer)

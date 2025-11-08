@@ -61,6 +61,7 @@ export interface BacktestResult {
     model_params: Record<string, any> | null;
     look_back: number;
     prediction_horizon: number;
+    price_change_threshold: number;
     retrain_interval: number;
     window_size: number;
     buy_threshold: number;
