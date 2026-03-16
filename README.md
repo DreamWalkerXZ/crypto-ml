@@ -26,7 +26,7 @@
 
 ## System Architecture
 
-![System Architecture](figures/system_architecture.png)
+![System Architecture](figures/system_architecture.drawio.png)
 
 The platform follows a modern microservices architecture:
 
